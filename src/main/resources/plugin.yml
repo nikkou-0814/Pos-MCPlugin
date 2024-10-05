@@ -1,0 +1,25 @@
+name: Pos
+version: 1.0
+main: nagoya.nikkou.pos.Pos
+api-version: 1.21
+description: プレイヤーの座標を表示し、発光効果を付与するプラグイン
+commands:
+  pos:
+    description: プレイヤーの座標を表示し、発光効果を付与します。
+    usage: /pos [playername]
+    aliases: []
+    permission: pos.use
+    permission-message: このコマンドを実行する権限がありません。
+  poshelp:
+    description: /pos コマンドの使用方法を表示します。
+    usage: /poshelp
+    aliases: [ ]
+    permission: pos.help
+    permission-message: このコマンドを実行する権限がありません。
+permissions:
+  pos.use:
+    description: /posコマンドを使用する権限
+    default: true
+  pos.help:
+    description: /poshelpコマンドを使用する権限
+    default: true

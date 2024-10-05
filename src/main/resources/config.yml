@@ -1,0 +1,5 @@
+# xaero-waypoint メッセージの送信を有効化するかどうか
+
+# trueの場合xaero-waypointメッセージが送信されます
+# falseの場合xaero-waypointメッセージは送信されません
+send-xaero-waypoint: true
