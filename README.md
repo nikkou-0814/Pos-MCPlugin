@@ -1,4 +1,4 @@
-# Pos
+# Pos-SpigotMCPlugin
 
 > [!WARNING]
 > このModは身内で使用するために作成したものであり、使用に際しては以下の点にご留意ください。
