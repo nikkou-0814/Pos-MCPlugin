@@ -15,10 +15,10 @@ public class PosHelpCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        sender.sendMessage(ChatColor.GOLD + "=== PosPlugin Help ===");
-        sender.sendMessage(ChatColor.GREEN + "/pos [playername]" + ChatColor.WHITE + " - 指定したプレイヤーの座標をチャットに送信し、発光効果を付与します。");
-        sender.sendMessage(ChatColor.GREEN + "/pos" + ChatColor.WHITE + " - 自分の座標をチャットに送信し、発光効果を付与します。");
-        sender.sendMessage(ChatColor.GREEN + "/poshelp" + ChatColor.WHITE + " - このヘルプメッセージを表示します。");
+        sender.sendMessage(ChatColor.GOLD + "======= PosPlugin Help =======");
+        sender.sendMessage(ChatColor.GREEN + "/pos [playername]" + ChatColor.WHITE + " - 指定したプレイヤーの座標をチャットに送信し、発光効果を付与します");
+        sender.sendMessage(ChatColor.GREEN + "/pos" + ChatColor.WHITE + " - 自分の座標をチャットに送信し、発光効果を付与します");
+        sender.sendMessage(ChatColor.GREEN + "/poshelp" + ChatColor.WHITE + " - このヘルプを表示します");
         sender.sendMessage(ChatColor.GOLD + "===========================");
         return true;
     }

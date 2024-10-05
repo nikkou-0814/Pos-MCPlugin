@@ -62,7 +62,7 @@ public class PosCommand implements CommandExecutor, TabCompleter {
 
         Bukkit.broadcastMessage(ChatColor.GREEN + message);
 
-        targetPlayer.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 200, 1));
+        targetPlayer.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 1200, 1));
 
         boolean sendXaeroWaypoint = plugin.getConfig().getBoolean("send-xaero-waypoint", false);
 

@@ -1,5 +1,5 @@
 name: Pos
-version: 1.0
+version: 1.1
 main: nagoya.nikkou.pos.Pos
 api-version: 1.21
 description: プレイヤーの座標を表示し、発光効果を付与するプラグイン
