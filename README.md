@@ -15,3 +15,6 @@
 - `/pos`: 自分の座標をチャットに送信し、発光効果を付与します。
 - `/poshelp`: コマンドの使用方法を表示します。
 - **Xaero’s Map** との連携: `config.yml`の設定により `xaero-waypoint` メッセージを送信するか決めれます。
+
+## Fabric版
+[このプラグインのFabricMC版](https://github.com/nikkou-0814/WherePlayer)
